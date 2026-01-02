@@ -34,6 +34,8 @@ The documentation provides a step-by-step guide to replicate the environment and
 - **Purpose / Outcome:** Establishes a unique namespace for email, Azure resources, and identity management.  
 - **Notes:** Ensure the domain registrar supports DNS management for Azure integration.
 
+  
+
 ---
 
 ### **Step 2 – Create Azure Account**
