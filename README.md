@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="150">
+  <img src="https://swimburger.net/media/ppnn3pcl/azure.png" width="150">
 </p>
 
 <h1 align="center">Azure Cloud Setup & IAM Implementation
