@@ -11,39 +11,62 @@
 
 
 
-## Overview
-This project documents the setup and configuration of a **Microsoft Azure environment** for a company, including domain integration, identity and access management (IAM), security configuration, and organizational hierarchy.  
+## Project Overview
+This project documents the setup and configuration of a Microsoft Azure environment for a company, including domain integration, identity and access management (IAM), security configuration, and organizational hierarchy.  
 The documentation provides a step-by-step guide to replicate the environment and understand best practices for Azure governance.
 
 ---
 
-## Table of Contents
-- [Overview](#overview)  
-- [Step-by-Step Implementation](#step-by-step-implementation)  
-- [Architecture Diagrams](#architecture-diagrams)  
-- [Setup Instructions](#setup-instructions)  
-- [Contributing](#contributing)  
-- [License](#license)
+## 📘 Table of Contents  
+- [Overview](#project-overview)  
+- [Architecture Diagrams](#architecture-diagrams) 
+- [Register a domain](#-step-1--register-domain-name)
+2.  create Azure account.   
+3. Add and verify the domain in Azure tenant.  
+4. Configure company branding.  
+5. Create users (single/bulk) in Azure Entra ID.  
+6. Create groups, assign roles, and configure RBAC.  
+7. Implement security policies including MFA and password requirements.  
+8. Design cloud hierarchy with management groups and subscriptions.  
+9. Document architecture diagrams for reference.
+
 
 ---
 
-## Step-by-Step Implementation
 
-### **Step 1 – Register Domain Name**
-- **What was done:** Registered a company domain for Azure services.  
-- **Purpose / Outcome:** Establishes a unique namespace for email, Azure resources, and identity management.  
-- **Notes:** Ensure the domain registrar supports DNS management for Azure integration.
+### 🧿 Step 1 – Register Domain Name
+- What was done: Registered a company domain for Azure services.
+- 📌 Purpose: Establishes a unique namespace for email, Azure resources, and identity management.  
+- Notes: Ensure the domain registrar supports DNS management for Azure integration.
 
-  
+_✔ Registered a domain name for the company Rivetrecords.online_
+
+  <img width="1344" height="620" alt="image" src="https://github.com/user-attachments/assets/18a67e4f-7998-4835-83d5-b64543267316" />
+
+
+---
+
+
+
+
+
+
+### 🧿  Step 2 – Create Azure Account
+- What was done: Created an Azure account to manage all cloud resources and services.  
+- 📌 Purpose: Provides access to Azure Portal, subscriptions, and administrative control.  
+- Notes: Use a company email to maintain organizational control and billing.
+
+
+
+
 
 ---
 
-### **Step 2 – Create Azure Account**
-- **What was done:** Created an Azure account to manage all cloud resources and services.  
-- **Purpose / Outcome:** Provides access to Azure Portal, subscriptions, and administrative control.  
-- **Notes:** Use a company email to maintain organizational control and billing.
 
----
+
+
+
+
 
 ### **Step 3 – Integrate Domain Name with Azure**
 - **What was done:** Verified and added the registered domain to Azure tenant.  
@@ -87,36 +110,14 @@ The documentation provides a step-by-step guide to replicate the environment and
 
 ---
 
-## Architecture Diagrams
-> Add diagrams in the `/images` folder and reference here.
 
-- **Domain Integration Diagram:** `images/domain-integration.png`  
-- **Azure Tenant Structure:** `images/azure-tenant-structure.png`  
-- **IAM Roles & Group Hierarchy:** `images/iam-hierarchy.png`
 
 ---
 
-## Setup Instructions
-1. Register a domain and create Azure account.  
-2. Add and verify the domain in Azure tenant.  
-3. Configure company branding.  
-4. Create users (single/bulk) in Azure Entra ID.  
-5. Create groups, assign roles, and configure RBAC.  
-6. Implement security policies including MFA and password requirements.  
-7. Design cloud hierarchy with management groups and subscriptions.  
-8. Document architecture diagrams for reference.
+
 
 ---
 
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository.  
-2. Create a feature branch (`git checkout -b feature-name`).  
-3. Commit your changes (`git commit -m 'Add feature'`).  
-4. Push to branch (`git push origin feature-name`).  
-5. Open a Pull Request.
 
----
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
