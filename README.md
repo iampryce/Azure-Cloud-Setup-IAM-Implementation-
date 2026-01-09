@@ -18,22 +18,6 @@ The documentation provides a step-by-step guide to replicate the environment and
 
 ---
 
-## 📘 Table of Contents  
-- [Overview](#project-overview)  
-- [Architecture Diagrams](#architecture-diagrams) 
-- [Register a domain](#-step-1--register-domain-name)
-- [Creating Azure account](#--step-2--create-azure-account)
-- Integrating and verify the domain in Azure tenant.  
-4. Configure company branding.  
-5. Create users (single/bulk) in Azure Entra ID.  
-6. Create groups, assign roles, and configure RBAC.  
-7. Implement security policies including MFA and password requirements.  
-8. Design cloud hierarchy with management groups and subscriptions.  
-9. Document architecture diagrams for reference.
-
-
----
-
 
 ### 🧿 Step 1 – Register Domain Name
 - **What was done:** Registered a company domain for Azure services.
